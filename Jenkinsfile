@@ -12,7 +12,7 @@ pipeline {
         sh '''./mvnw sonar:sonar \\
 -Dsonar.projectKey=Spring-PetClinic \\
 -Dsonar.host.url=http://172.31.27.242:9000 \\
--Dsonar.login=sqp_06d359678d828c02978d25adfee21829532cfaca'''
+-Dsonar.login=sqp_761e907fd3d13aadf6eafb5cf30f25dee4145e5d'''
       }
     }
 
